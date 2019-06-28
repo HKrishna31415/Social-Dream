@@ -44,7 +44,7 @@
             "GTM-PC2FJVN": true
         });
     </script>
-    <link rel="stylesheet" type="text/css" href="main.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
     <script type="application/ld+json">{ "@context":"http://schema.org", "@type":"Organization", "name":"Social Dream", "legalName":"Social Dream", "url":"https://socialdream.co", "logo":"https://uploads-ssl.webflow.com/5c62860870613ff18d9e0e15/5d142103eaa3ed3bf2028671_socialdream.png", "foundingDate":"2019", "founders":[ { "@type":"Person", "name":"Lucas Cook" } ], "address":{ "@type":"PostalAddress", "streetAddress":"1058 Minioru Dr", "addressLocality": "San Jose", "addressRegion":"CA", "postalCode":"95120", "addressCountry":"USA" }, "contactPoint":{ "@type":"ContactPoint", "contactType":"customer support", "email":"support@socialdream.co", "url":"https://socialdream.co/contact" }, "sameAs":[ "https://facebook.com/thisisSocialDream", "https://twitter.com/thisisSocialDream" "https://www.youtube.com/channel/socialdream", "https://www.crunchbase.com/organization/socialdream" ] }
 
     </script>
@@ -80,22 +80,23 @@
             <nav data-test-id="navigation" class="ds-navigation-reset ds-nav -light">
                 <div class="ds-utility-background">
                     <div class="ds-utility">
-                        <div class="grid grid-nogutter">
-                            <div class="col col-middle">
-                            </div>
-                        </div>
+
                     </div>
                 </div>
-                <div data-sticky="" class="ds-sticky-wrapper -fixed">
+                <div data-sticky="" class="ds-sticky-wrapper">
                     <div class="ds-global">
                         <div class="grid grid-mobilegutter grid-between">
                             <div class="col col-middle col-fixed">
-                                <a href="index.html" style="display: inline-flex;" class="ds-nav-logo"><img src="https://uploads-ssl.webflow.com/5c62860870613ff18d9e0e15/5d142103eaa3ed3bf2028671_socialdream.png" alt="Social Dream Logo" height="35">
+                                <a href="index.html" style="display: inline-flex;" class="ds-nav-logo"><img src="https://uploads-ssl.webflow.com/5c62860870613ff18d9e0e15/5d1334f52d63f304c07d4b4b_imageedit_18_2077708575.png" alt="Social Dream Logo" height="65">
                                     <p style="padding-left: 15px;color: white;font-weight: 900;font-size: 21px;padding-top: 8px;letter-spacing: 0.3px;"></p>
                                 </a>
                             </div>
                             <div class="col ds-nav-desktop">
                                 <ul class="nav grid grid-nogutter grid-end">
+
+                                    <li class="col col-middle col-fixed ds-nav-menu">
+
+                                    </li>
                                     <li class="col col-middle col-fixed">
                                         <div class="ds-nav-contact-button ds-nav-button"><a href="https://ig.socialdream.co/login" class="btn btn--large btn--transparent-light"> LOG IN </a></div>
                                     </li>
@@ -105,6 +106,7 @@
                                 </ul>
                             </div>
                             <div class="col col-middle col-fixed ds-nav-mobile-trigger">
+                                <button data-action="nav-toggle"><img src="https://i.imgur.com/SQjNmxi.png" width="20" height="16"></button>
                             </div>
                         </div>
                     </div>
@@ -115,13 +117,15 @@
                     <div class="row">
                         <div class="grid grid-mobilegutter">
                             <div class="col col-xl col-middle">
-                              <h1 class="h h--1 h--light sp-marginbottom--md"><b style="color:#FFFFFF">Build your following</b></h1>
-                              <p class="sh sh--2 sh--light sp-marginbottom--2xl">Become an <b style="color:#FFFFFF">influencer.</b> <br> You make the content, <br> we'll handle the rest.
-                              <div class="grid">
-                                    <div class="col col-fixed col-middle col-sm sp-marginbottom--sm">
-                                        <a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" style="padding: 19px 18px 16px 18px;display: inline-flex;" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL </a>
+                                <h1 class="h h--1 h--light sp-marginbottom--md"><b style="color:#FFFFFF">Build your following</b></h1>
+                                <p class="sh sh--2 sh--light sp-marginbottom--2xl">Become an <b style="color:#FFFFFF">influencer.</b>
+                                    <br> You make the content,
+                                    <br> we'll handle the rest.
+                                    <div class="grid">
+                                        <div class="col col-fixed col-middle col-sm sp-marginbottom--sm">
+                                            <a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" style="padding: 19px 18px 16px 18px;display: inline-flex;" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL </a>
+                                        </div>
                                     </div>
-                                </div>
                             </div>
                             <div class="col col-xl">
                                 <div class="js-homepage-sequence">
@@ -846,9 +850,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+            </section>
 
-        <section class="inner-border -thin -bottom -lightgrey la-paddingvertical--xl">
+            <section class="inner-border -thin -bottom -lightgrey la-paddingvertical--xl">
             <div data-pricing-faq="" class="row">
                 <div class="la-marginbottom-xs">
                     <div class="grid grid-mobilegutter grid-center">
@@ -932,6 +936,35 @@
             <div class="row">
                 <div class="row__col row__col--l-5 row__col--l-right">
                     <div class="footer-bot__links"><a href="tos.html" alt="Terms of Service" class="footer-bot__link">Terms of Service</a><a href="privacy.html" class="footer-bot__link">Privacy Policy</a><a href="security.html" class="footer-bot__link">Security</a><a href="https://ig.socialdream.co/login" class="footer-bot__link footer-bot__link--login">LOG IN</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-action="nav" tabindex="-1" class="drawer ds-navigation-reset">
+            <div class="ds-overlay"></div>
+            <div class="drawer-inside">
+                <div data-sticky="" class="ds-sticky-wrapper">
+                    <div class="drawer-inside--header">
+
+                        <div class="w-100">
+
+                            <ul class="grid grid-nogutter grid-between ds-mobile-utility">
+                                <div class="col col-middle col-fixed">
+                                    <div data-action="nav-toggle" class="ds-mobile-close-item">
+                                        <div class="drawer__close-icon fontweight-medium -no-bg -big-cross -white-cross"></div>
+                                    </div>
+                                </div>
+                        </div </ul>
+                    </div>
+                </div>
+
+                <div class="drawer-inside--footer">
+                    <div class="w-100 bt b--light-gray">
+                        <ul class="grid grid-between ds-mobile-button-cta">
+                            <li class="col"><a href="https://ig.socialdream.co/login" class="btn btn--large btn--expanded btn--transparent-dark"> LOG IN </a></li>
+                            <li class="col"><a data-track="Visit Signup" data-track-category="Sign Up" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--expanded btn--blue"> FREE TRIAL </a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
